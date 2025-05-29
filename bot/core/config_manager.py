@@ -16,7 +16,7 @@ class Config:
     BOT_TOKEN: str = ""
     CMD_SUFFIX: str = ""
     DATABASE_URL: str = ""
-    DEFAULT_UPLOAD: str = "rc"
+    DEFAULT_UPLOAD: str = "gd"
     EXCLUDED_EXTENSIONS: str = ""
     FFMPEG_CMDS: ClassVar[dict[str, list[str]]] = {}
     FILELION_API: str = ""
@@ -67,7 +67,7 @@ class Config:
     UPLOAD_PATHS: ClassVar[dict[str, str]] = {}
     UPSTREAM_REPO: str = ""
     USENET_SERVERS: ClassVar[list[dict[str, object]]] = []
-    UPSTREAM_BRANCH: str = "main"
+    UPSTREAM_BRANCH: str = "extended"
     USER_SESSION_STRING: str = ""
     USER_TRANSMISSION: bool = False
     USE_SERVICE_ACCOUNTS: bool = False
